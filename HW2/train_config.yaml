@@ -3,4 +3,4 @@ batch_size: 64
 opt_name: Adam
 opt_config: {lr: 0.001, weight_decay: 0.0001}
 lr_scheduler_name: ReduceLROnPlateau
-lr_scheduler_config: {mode: min, factor: 0.1, patience: 10}
+lr_scheduler_config: {mode: min, factor: 0.1, patience: 10, verbose: true}
