@@ -1,0 +1,8 @@
+beta: 0.005
+optimizer_name: Adam
+optimizer_config: {lr: 0.0105}
+lr_scheduler_name: ReduceLROnPlateau
+lr_scheduler_config: {mode: min, factor: 0.5, patience: 50, verbose: true}
+running_avg_window: 20
+n_iters: 5000
+batch_size: 64
